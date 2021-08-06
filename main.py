@@ -162,7 +162,7 @@ for country in per_cap_apr_10:
     max_country_percap_apr_10 = country
 
 
-answer_list = 'project3_656470455.txt'
+answer_list = 'output.txt'
 with open(answer_list, 'r+') as a:
   a.write(country_min)
   a.write("\n")
